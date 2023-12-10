@@ -21,7 +21,7 @@ social: true  # includes social icons at the bottom of the page
 
 # About me
 
-I am currently a Ph.D. student at [Augmented Health Lab](https://www.ah-lab.cs.dartmouth.edu/){:target="_blank"} at Dartmouth College, working with [Prof. Temiloluwa Prioleau](https://faculty-directory.dartmouth.edu/temiloluwa-o-prioleau){:target="_blank"}. I did my M.S. at Duke University - Biomedical Engineering. 
+I am currently a Ph.D. student at [Augmented Health Lab](https://www.ah-lab.cs.dartmouth.edu/){:target="_blank"} in Computer Science at Dartmouth College, working with [Prof. Temiloluwa Prioleau](https://faculty-directory.dartmouth.edu/temiloluwa-o-prioleau){:target="_blank"}. I did my M.S. at Duke University - Biomedical Engineering. 
 
 My research interest is in the field of **Ubiquitous and Wearable Computing** and **Digital Health**, specifically leveraging digital phenotypes from wearable devices to assist diabetes monitoring and management. 
 
