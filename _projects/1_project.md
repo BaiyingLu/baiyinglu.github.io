@@ -1,30 +1,27 @@
 ---
 layout: page
-title: Mealtime Prediction
-description: Using pump data to predict meal time of people with diabetes
-img: assets/img/mealtimelogo.png
-importance: 2
+title: HealthMine
+description: A mobile platform assists diabetes management.
+img: assets/img/healthminelogo.png
+importance: 1
 category: work
-giscus_comments: true
+related_publications: 
 ---
-[Under review]
-## Abstract
-Many patients with diabetes struggle with post-meal high blood glucose due to missed or untimely meal-related insulin doses. To
-address this challenge, our research aims to: first, study mealtime patterns in patients with type 1 diabetes using wearable insulin
-pump data, and second, develop personalized models for predicting future mealtimes to support timely insulin dose administration.
-Using two independent datasets with over 45,000 meal logs from 82 patients with diabetes, we find that the majority of people
-(∼ 60%) have erratic and irregular mealtime patterns. We also show the feasibility of predicting future mealtimes with an
-LSTM-based model that achieves an F1 score of > 95% with less than 0.25 false positives per day. Our research lays the
-groundwork for developing a meal prediction system that can nudge patients with diabetes to administer bolus insulin doses
-before meal consumption to reduce the occurrence of post-meal high blood glucose.
+
+Wearable and mobile devices enable continuous monitoring of individualized physiological, environmental, and behavioral signals. Clinical-grade versions of such devices are already transforming the standard of care for high-risk chronic conditions like diabetes and cardiac disorders, especially in outpatient ambulatory settings. However, many of today's technology work in isolation, thus creating isolated data streams that cannot be used in the context of other physiological, environmental, and behavioral data. The bridge this gap, the objective of HealthMine project is to improve the utility of health-relevant data from various wearable and mobile systems by integrating desperate streams to enable a better understanding of the context surrounding health management and support personalized care.
+
+
+Ongoing User Study: Our team is actively running a user study on this project. We invite anyone over 18 years of age, who has diabetes, uses a Dexcom continuous glucose monitor, and an Android mobile phone to consider participating. Please email ah-lab@dartmouth.edu to learn more and sign up!
 
 <div class="caption">
-    Overview figure of the mealtime prediction study.
+    HealthMine blood glucose variation UI
 </div>
 <div class="text-center">
     <div class="col-sm d-flex justify-content-center mt-3 mt-md-0">
-        {% include figure.html path="assets/img/mealpred.png" title="mealpred" class="img-fluid rounded mx-auto d-block z-depth-1" width="90%" %}
+        {% include figure.html path="assets/img/healthminescreenshot.png" title="example image" class="img-fluid rounded mx-auto d-block z-depth-1" width="30%" %}
     </div>
 </div>
+
+
 
 
