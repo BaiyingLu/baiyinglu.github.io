@@ -9,6 +9,7 @@ giscus_comments: true
 ---
 
 ## Abstract
+
 Many patients with diabetes struggle with post-meal high blood glucose due to missed or untimely meal-related insulin doses. To
 address this challenge, our research aims to: first, study mealtime patterns in patients with type 1 diabetes using wearable insulin
 pump data, and second, develop personalized models for predicting future mealtimes to support timely insulin dose administration.
