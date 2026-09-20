@@ -1,20 +1,25 @@
 ---
 layout: page
 title: Mealtime Prediction
-description: Using pump data to predict meal time of people with diabetes
+description: Personalized LSTM models that forecast when people with type 1 diabetes will eat, from insulin pump data alone.
 img: assets/img/mealtimelogo.png
-importance: 2
-category: work
+importance: 4
+category: research
+related_publications: true
 giscus_comments: true
 ---
 
-## Abstract
+Post-meal hyperglycemia is one of the most common failure modes in type 1 diabetes management, and it is usually caused by something mundane: an insulin dose that was missed, or taken too late. A system that knew _when_ someone was about to eat could nudge them to bolus beforehand.
 
-Many patients with diabetes struggle with post-meal high blood glucose due to missed or untimely meal-related insulin doses. To
-address this challenge, our research aims to: first, study mealtime patterns in patients with type 1 diabetes using wearable insulin
-pump data, and second, develop personalized models for predicting future mealtimes to support timely insulin dose administration.
-Using two independent datasets with over 45,000 meal logs from 82 patients with diabetes, we find that the majority of people
-(∼ 60%) have erratic and irregular mealtime patterns. We also show the feasibility of predicting future mealtimes with an
-LSTM-based model that achieves an F1 score of > 95% with less than 0.25 false positives per day. Our research lays the
-groundwork for developing a meal prediction system that can nudge patients with diabetes to administer bolus insulin doses
-before meal consumption to reduce the occurrence of post-meal high blood glucose.
+This project asked whether that is possible using data people already generate — the logs from their insulin pump — with no additional sensors, no manual input, and no burden on the user.
+
+## Approach
+
+Using two independent datasets containing **over 45,000 meal logs from 82 patients**, we first characterized how regular real-world mealtime patterns actually are, then trained **personalized LSTM models** to predict upcoming meals for each individual.
+
+## Findings
+
+- Roughly **60% of participants** had irregular and inconsistent mealtime patterns that shifted both across the day and across months of their own history — undermining the assumption that a population-level or fixed-schedule model would work.
+- Despite that irregularity, personalized models reached an **average F1 score above 95%** with **fewer than 0.25 false positives per day**, a false-alarm rate low enough to be tolerable in a real nudging system.
+
+Together these results lay the groundwork for a meal prediction system that prompts patients to administer bolus insulin _before_ eating, reducing post-meal highs {% cite Lu2024 %}.

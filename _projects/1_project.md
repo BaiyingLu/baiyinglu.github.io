@@ -1,13 +1,23 @@
 ---
 layout: page
 title: HealthMine
-description: A mobile platform assists diabetes management.
+description: A mobile health platform that unifies fragmented wearable data streams to support diabetes management.
 img: assets/img/healthminelogo.png
 importance: 1
-category: work
+category: research
 related_publications: true
 ---
 
-Wearable and mobile devices enable continuous monitoring of individualized physiological, environmental, and behavioral signals. Clinical-grade versions of such devices are already transforming the standard of care for high-risk chronic conditions like diabetes and cardiac disorders, especially in outpatient ambulatory settings. However, many of today's technology work in isolation, thus creating isolated data streams that cannot be used in the context of other physiological, environmental, and behavioral data. The bridge this gap, the objective of HealthMine project is to improve the utility of health-relevant data from various wearable and mobile systems by integrating desperate streams to enable a better understanding of the context surrounding health management and support personalized care.
+Wearable and mobile devices now make it possible to continuously monitor physiological, behavioral, and environmental signals outside the clinic. But most of these devices operate in isolation: a continuous glucose monitor knows nothing about the wearer's activity, sleep, or context, and vice versa. The result is a set of disconnected data streams that individually capture only a narrow slice of a person's health.
 
-Ongoing User Study: Our team is actively running a user study on this project. We invite anyone over 18 years of age, who has diabetes, uses a Dexcom continuous glucose monitor, and an Android mobile phone to consider participating. Please email ah-lab@dartmouth.edu to learn more and sign up!
+**HealthMine** addresses this gap by integrating disparate streams from consumer and medical-grade devices into a single research platform, so that health-relevant data can be interpreted in context rather than in isolation.
+
+## What I built
+
+- **Cross-platform mobile clients** in Kotlin (Android) and Flutter, with authenticated background synchronization from the Dexcom CGM and Fitbit APIs for continuous, unattended data collection.
+- **Backend services on Google Cloud Platform** written in Go, with Firebase for user management and scalable storage of high-frequency time-series sensor data.
+- **End-to-end research data pipelines** spanning study design, ingestion, preprocessing, feature engineering, and statistical analysis — reused across multiple digital health studies in the lab.
+
+## Ongoing user study
+
+Our team is actively recruiting for a user study on this project. We invite anyone over 18 years of age who has diabetes, uses a Dexcom/Freestyle Libre continuous glucose monitor, and owns an Android phone to consider participating. Please email [ah-lab@dartmouth.edu](mailto:ah-lab@dartmouth.edu) to learn more and sign up.
