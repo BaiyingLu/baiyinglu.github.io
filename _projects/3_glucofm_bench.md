@@ -2,7 +2,7 @@
 layout: page
 title: GlucoFM-Bench
 description: Benchmarking time-series foundation models for blood glucose forecasting.
-img: assets/img/3.jpg
+img: assets/img/glucofm-bench.png
 importance: 2
 category: research
 related_publications: true

@@ -2,7 +2,7 @@
 layout: page
 title: Reproducibility in Glucose Prediction
 description: Can published deep learning models for blood glucose prediction be reproduced — and do they generalize?
-img: assets/img/4.jpg
+img: assets/img/reproducibility_eval.png
 importance: 3
 category: research
 related_publications: true

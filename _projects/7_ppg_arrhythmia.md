@@ -2,7 +2,7 @@
 layout: page
 title: Arrhythmia Detection from Smartwatch PPG
 description: Detecting and counting ectopic beats from consumer smartwatch photoplethysmography at scale.
-img: assets/img/7.jpg
+img: assets/img/ppg_ectopic.png
 importance: 2
 category: industry
 related_publications: true
