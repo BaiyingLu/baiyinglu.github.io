@@ -1,7 +1,7 @@
 ---
 layout: page
 title: GlucoFM-Bench
-description: Benchmarking time-series foundation models for blood glucose forecasting.
+description: Benchmarking time-series foundation models for blood glucose forecasting. Accepted at NeurIPS 2026.
 img: assets/img/glucofm-bench.png
 importance: 2
 category: research
@@ -18,4 +18,6 @@ Time-series foundation models promise strong zero-shot forecasting across domain
 - Tested across **uni- and multimodal data** from both medical-grade and consumer wearables.
 - Standardized preprocessing, forecast horizons, and evaluation metrics so that differences reflect the models rather than the experimental setup.
 
-The benchmark provides a common reference point for whether general-purpose foundation models transfer to physiological forecasting, and where they still fall short of task-specific models {% cite Lu2026_GlucoFMBench %}.
+The benchmark provides a common reference point for whether general-purpose foundation models transfer to physiological forecasting, and where they still fall short of task-specific models.
+
+Accepted at **NeurIPS 2026** {% cite Lu2026_GlucoFMBench %}.
